@@ -1,0 +1,132 @@
+/*body { overflow-x: hidden;}*/
+/* { border: 1px solid red; } */
+
+#main
+{
+    display:block;
+    width:80%;
+    padding:50px 10%;
+    height:300px;
+    background-color:blue;
+}
+
+.circleButton {
+    width:96px;
+    height:96px;
+    border-radius:50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.white-shadow{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.labelButton
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.green-light{
+    background-color:#60A848;
+}
+
+.jumbotron{
+    background-image:url('images/HomeScreen.jpg');
+    
+    /*background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+}
+.green{
+    /*background-color:#4F8A3B;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-image: url('images/BackScreen.jpg');
+    width:100%;
+}
+.fixed-bkg{
+    background-attachment: scroll;
+    background-size: auto;
+	background-repeat: repeat;
+	background-position: center top;
+}
+@media (min-width:768px) {
+    .fixed-bkg{
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.green-highlight{
+    color: #EAFFE3;
+    text-shadow: 2px 2px 4px #000000;
+}
+.green-muted{
+    color: #CBFFBA;
+    text-shadow: 2px 2px 4px #000000;
+}
+.green-img{
+    border:5px solid #3D6B2E;
+}
+.black-highlight{
+    color: #26421C;
+}
+.black-muted{
+    color: #3A662C;
+}
+.thumbnail{
+    border:3px solid #3D6B2E;
+    max-width:242px;
+    height:auto;
+}
+.circleButton>img{
+    display: block;
+    margin: auto auto;
+    width:64px;
+    height:64px;
+}
+
+.featurette-image{
+    width:480px;
+    height:auto;
+}
+
+.centerText{
+    display: block;
+    margin: auto;
+}
+
+.smallImg{
+    display: block;
+    margin: auto;
+    width:48px;
+    height:48px;
+}
+
+.xs-image{
+    display: block;
+    margin: auto;
+    width:16px;
+    height:16px;
+}
+
+.profilePic{
+    display: block;
+    margin: auto;
+    width:100%;
+    height:auto;
+    max-width:192px;
+    max-height:192px;
+}
+
+.lead {
+    text-indent: 4em;
+}
